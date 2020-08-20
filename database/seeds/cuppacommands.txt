@@ -1,0 +1,4 @@
+composer create-project --prefer-dist laravel/laravel <projName>
+php artisan make:model <Name> -m
+php artisan make:seeder <NameTableSeeder>
+php artisan migrate:fresh --seed
