@@ -3,7 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="mold-md-3 sm-3">
+        <h3>Hey</h3>
+        </div>
+        <div class="col-md-8 sm-7">
             <div class="card">
                 {{-- <div class="card-header">{{ __('Dashboard') }}</div> --}}
 

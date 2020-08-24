@@ -6,3 +6,4 @@ php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"
 php artisan migrate
 php artisan db:seed
 php artisan serve
+php artisan make:controller PhotoController --resource

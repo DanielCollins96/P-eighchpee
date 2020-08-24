@@ -23,3 +23,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/create-post', 'PostController@index')->name('create-post');
+// Route::get('/create-post', function() {
+//     return response('got vape?',200);
+// })->name('create-post');
